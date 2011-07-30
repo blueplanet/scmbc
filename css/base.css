@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+/*--------------------------------------------------------------/
+/ Theme Name: SCMBC                                         /
+/ Author: Git Team                     /
+---------------------------------------------------------------*/
+
+/*------------------------------------------------------------*/
+/*    reset style                                             */
+/*------------------------------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+img {
+    border: 0;
+    vertical-align: bottom;
+}
+ul li {
+    list-style: none;
+}
+
+/*------------------------------------------------------------*/
+/*    base style                                              */
+/*------------------------------------------------------------*/
+html {
+    overflow-y: scroll;
+}
+body {
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-size: 80%;
+    color: #535c5c;
+    text-align: center;
+    line-height: 1.5;
+}
+em {
+    font-style: normal;
+    font-weight: bold;
+}
+
+/*------------------------------------------------------------*/
+/*    link style                                              */
+/*------------------------------------------------------------*/
+a:link, a:visited {
+    color: #535c5c;
+}
+a:hover, a:active {
+    color: #ffa200;
+}
+a:hover img {
+    filter: Alpha(opacity=80%);
+    opacity: 0.8;
+}
+
+/*------------------------------------------------------------*/
+/*    content style                                           */
+/*------------------------------------------------------------*/
+div.wrapper {
+    margin: 0 auto;
+    width: 80%;
+    text-align: left;
+}
+
+/*------------------------------------------------------------*/
+/*    element style                                           */
+/*------------------------------------------------------------*/
+div.heading-lv1 {
+    margin: 20px 0 10px -20px;
+    font-size: 130%;
+}
+div.heading-lv2 {
+    margin: 20px 0 10px -20px;
+}
+div.textDetail {
+    margin: 10px 0 5px;
+}
+div.textDetail dt {
+    font-weight: bold;
+}
+div.textDetail dd {
+    margin-left: 2em;
+}
